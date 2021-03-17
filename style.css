@@ -27,3 +27,7 @@
 	padding: 10px;
 	line-height: 2em;
 }
+
+.clearer {
+	clear: both;
+}
