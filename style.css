@@ -1,43 +1,88 @@
+* {
 body, html{
   height:100%;
   margin:0;
-  padding:200px 200px;
+  padding:0;
+  border:0;
   font-size:16px;
   font-family:"Lato", sans-serif;
   font-weight:400;
   line-height:1.8em;
-  color:#355834;
+  color:#666;
 }
 
-.clear {
-  clear: both;
+#wrapper {
+  border: 1px solid #000;
+  width: 950px;
+  margin: auto;
+.img1, .img2, .img3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
 }
 
-.split {
-  height: 100%;
-  width: 30%;
+#header {
+	border-bottom: 1px solid #000;
+	padding: 10px;
+	background-color: #eee;
+.img1{
+  background-image:url('kaya.jpg');
+  min-height:100%;
+}
+
+#menu {
+	width: 180px;
+	float: left;
+	padding: 10px;
+	border-right: 1px solid #000;
+.img2{
+  background-image:url('kaya.jpg');
+  min-height:400px;
+}
+
+#content {
+	margin-left: 200px;
+	border-left: 1px solid #000;
+	padding: 10px;
+	line-height: 2em;
+.img3{
+  background-image:url('kaya.jpg');
+  min-height:400px;
+}
+
+.clearer {
+	clear: both;
+.section{
+  text-align:center;
+  padding: 50px 80px;
+}
+
+.section-light{
+  background-color: #f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color: #282e34;
+  color:#ddd;
+}
+
+.text{
   position:absolute;
-  top: 0px;
-  padding-top: 0;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
 }
 
-.left {
-  left:0;
-  background-color:white;
-  text-align:right;
-  padding: 50px;
-  position:fixed;
-}
-
-.right {
-  right:0;
-  background-color:white;
-  text-align:justify;
-  padding-right: 566px;
-  padding-top:25px;
-}
-
-img {
-  width: 200px;
-  border: 3px solid #355834;
+.text .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
 }
