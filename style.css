@@ -47,6 +47,16 @@ a:active {
   color: #DAD2BC;
 }
 
+.scroll {
+  background-color:#172815;
+  color:#DAD2BC;
+  top:100%;
+  opacity: 0.7;
+  padding:5px;
+  width:100%;
+  text-align:center;
+}
+
 .img1, .img2, .img3, .img4 {
   position:relative;
   opacity:0.70;
@@ -58,7 +68,7 @@ a:active {
 
 .img1 {
   background-image:url('1.jpg');
-  min-height:94%;
+  min-height:86%;
 }
 
 .img2 {
@@ -113,7 +123,7 @@ a:active {
 }
 
 @media(max-width:568px){
-  .img1, .img2, .im3{
+  .img1, .img2, .im3, .im4{
     background-attachment:scroll;
   }
 }
