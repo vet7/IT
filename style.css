@@ -4,10 +4,10 @@ body, html{
   padding:0;
   border:0;
   font-size:16px;
-  font-family:"Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight:400;
   line-height:1.8em;
-  color:#666;
+  color:#172815;
 }
 
 .img1, .img2, .img3, .img4 {
@@ -45,13 +45,13 @@ body, html{
 }
 
 .section-light{
-  background-color: #f4f4f4;
-  color:#666;
+  background-color: #AAAE8E;
+  color:#172815;
 }
 
 .section-dark{
-  background-color: #282e34;
-  color:#ddd;
+  background-color: #415D43;
+  color:#DAD2BC;
 }
 
 .text{
@@ -66,13 +66,13 @@ body, html{
 }
 
 .text .border{
-  background-color:#111;
-  color:#fff;
+  background-color:#172815;
+  color:#DAD2BC;
   padding:20px;
 }
 
 .text .border.trans{
-  background-color: transparent;
+  background-color: #172815;
 }
 
 @media(max-width:568px){
@@ -82,7 +82,7 @@ body, html{
 }
 
 #headshot img {
-  border: 2px solid black;
+  border: 1px solid #172815;
   width: 250px;
   height:250px;
   border-radius: 50%;
