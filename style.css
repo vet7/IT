@@ -1,6 +1,7 @@
 body, html{
   height:100%;
   margin:0;
+  margin-top:30px;
   padding:0;
   border:0;
   font-size:16px;
@@ -8,6 +9,42 @@ body, html{
   font-weight:400;
   line-height:1.8em;
   color:#172815;
+}
+
+#menu {
+  overflow:hidden;
+  position:fixed;
+  top:0;
+  text-align: center;
+  width:100%;
+  background-color:#172815;
+  opacity: 0.5;
+}
+
+.menu a {
+  float:right;
+  display:block;
+  color:#DAD2BC;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background:#172815;
+  color:#DAD2BC;
+}
+
+a:link {
+  color: #DAD2BC;
+}
+
+a:visited {
+  color: #DAD2BC;
+}
+
+a:active {
+  color: #DAD2BC;
 }
 
 .img1, .img2, .img3, .img4 {
@@ -21,7 +58,7 @@ body, html{
 
 .img1 {
   background-image:url('1.jpg');
-  min-height:100%;
+  min-height:94%;
 }
 
 .img2 {
@@ -59,7 +96,7 @@ body, html{
   top:50%;
   width:100%;
   text-align:center;
-  color:#000;
+  color:#DAD2BC;
   font-size:27px;
   letter-spacing:8px;
   text-transform:uppercase;
