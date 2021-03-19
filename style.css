@@ -93,7 +93,7 @@ a:active {
 
 .section-light{
   background-color: #AAAE8E;
-  color:#172815;
+  color:#244F26;
 }
 
 .section-dark{
@@ -134,13 +134,14 @@ a:active {
   height:250px;
   border-radius: 50%;
   object-fit:fill;
+  opacity: 0.8;
 }
 
 #mbti img{
   border: 3px solid #DAD2BC;
   max-width: 100%;
   height: auto;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 #learningstyle img{
