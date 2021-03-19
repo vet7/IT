@@ -10,7 +10,7 @@ body, html{
   color:#666;
 }
 
-.img1, .img2, .img3 {
+.img1, .img2, .img3, .img4 {
   position:relative;
   opacity:0.70;
   background-position:center;
@@ -31,6 +31,11 @@ body, html{
 
 .img3 {
   background-image:url('3.jpg');
+  min-height:400px;
+}
+
+.img4 {
+  background-image:url('spiderman.png');
   min-height:400px;
 }
 
