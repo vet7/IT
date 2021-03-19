@@ -88,3 +88,24 @@ body, html{
   border-radius: 50%;
   object-fit:fill;
 }
+
+#mbti img{
+  border: 3px solid #DAD2BC;
+  max-width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
+#learningstyle img{
+  border: 3px solid #DAD2BC;
+  max-width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
+#big5 img{
+  border: 3px solid #DAD2BC;
+  max-width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
