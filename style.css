@@ -75,3 +75,11 @@ body, html{
     background-attachment:scroll;
   }
 }
+
+#headshot img {
+  border: 2px solid black;
+  width: 250px;
+  height:250px;
+  border-radius: 50%;
+  object-fit:fill;
+}
