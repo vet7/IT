@@ -137,11 +137,18 @@ a:active {
   opacity: 0.8;
 }
 
+#jobadvert img {
+  border: 3px solid #DAD2BC;
+  max-width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
 #mbti img{
   border: 3px solid #DAD2BC;
   max-width: 100%;
   height: auto;
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 #learningstyle img{
